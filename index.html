@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ------------------------------------------------------------------------------------------------------- -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generator for you</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://t4.ftcdn.net/jpg/03/87/71/61/360_F_387716102_1B48vCwpZ8Pf7lOZJJ3L5LJYBmXpNzkF.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- ------------------------------------------------------------------------------------------------------- -->
+
+  <body>
+    <div class="container">
+      <!-- ------------------------------------------------------------------------------------------------------- -->
+      <div class="quote-container" id="quote-container">
+        <div class="quote-text">
+          <i class="fas fa-quote-left"></i>
+          <span id="quote"></span>
+          <i class="fas fa-quote-right"></i>
+        </div>
+
+        <div class="quote-author">
+          <span id="author"></span>
+        </div>
+
+        <div class="button-container">
+          <button class="twitter-button" id="twitter" title="Tweet">
+            <i class="fab fa-twitter"></i>
+          </button>
+          <button class="linkedin-button" id="linkedin" title="Post">
+            <i class="fab fa-linkedin"></i>
+          </button>
+          <button class="whatsapp-button" id="whatsapp" title="Share">
+            <i class="fab fa-whatsapp"></i>
+          </button>
+          <button id="new-quote" title="New Quote">New Quote</button>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------- -->
+
+      <div class="loader" id="loader"></div>
+
+      <script src="script.js" defer></script>
+
+      <!-- ------------------------------------------------------------------------------------------------------- -->
+      <div class="joke-container" id="joke-container">
+        <div class="joke-text">
+          <span id="joke"></span>
+        </div>
+
+        <div class="answer">
+          <span id="answer"></span>
+        </div>
+
+        <div class="button-container">
+          <button class="twitter-button1" id="twitter1" title="Tweet">
+            <i class="fab fa-twitter"></i>
+          </button>
+          <button class="linkedin-button1" id="linkedin1" title="Post">
+            <i class="fab fa-linkedin"></i>
+          </button>
+          <button class="whatsapp-button1" id="whatsapp1" title="Share">
+            <i class="fab fa-whatsapp"></i>
+          </button>
+          <button
+            id="newjoke"
+            title="New Joke"
+            onClick="window.location.reload();"
+          >
+            New Joke
+          </button>
+        </div>
+      </div>
+
+      <div class="loader1" id="loader1"></div>
+      <!-- ----------------------------------------------------------------------------------------- -->
+      <div class="news-container" id="news-container">
+         <div class="news-text">
+          <span id="news"> </span>
+         </div>
+
+        <div class="button-container">
+          <button class="twitter-button2" id="twitter2" title="Tweet">
+            <i class="fab fa-twitter"></i>
+          </button>
+          <button class="link_button" id="link-button" title="view full story">
+            <i class="fa fa-chain"></i>
+          </button>
+          <script>
+
+          </script>
+          </a>
+          <button class="whatsapp-button2" id="whatsapp2" title="Share">
+            <i class="fab fa-whatsapp"></i>
+          </button>
+          
+          <button
+            id="newnews"
+            title="New News"
+          >
+            Latest News
+          </button>
+        </div>
+      </div>
+      <div class="loader2" id="loader2"></div>
+      </div>
+    </div>
+  </body>
+</html>
