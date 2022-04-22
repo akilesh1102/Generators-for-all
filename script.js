@@ -151,7 +151,8 @@ async function getjokes() {
 
 async function getNews() {
     loading2()
-    const apiurl2 = "https://newsapi.org/v2/top-headlines?country=in&apiKey=API_KEY"
+    const API_KEY = '4a6d7d824f4c47f089648e221f1fe338'
+    const apiurl2 = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${API_KEY}`
     try {
         const response = await fetch(apiurl2)
         r = await response.json()
